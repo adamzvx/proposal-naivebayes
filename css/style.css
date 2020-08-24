@@ -11,8 +11,8 @@
 body{        
     font-family: DroidSans;    
     min-height: 740px;   
-    color: #EEE;
-    /*color:#333333;*/
+    /*color: #EEE;*/
+    color:#333333;
 
     /*background: #333333;*/
 /*    background: #EEE;
@@ -23,11 +23,11 @@ body{
     background: radial-gradient(center bottom, circle farthest-corner, #666666, #EEE, white);*/
     
     background: #EEE;
-    background: -webkit-radial-gradient(center bottom, circle farthest-corner, lightgray, #EEE, lightgray);
-    background: -moz-radial-gradient(center bottom, circle farthest-corner, lightgray, #EEE, lightgray);
-    background: -o-radial-gradient(center bottom, circle farthest-corner, lightgray, #EEE, lightgray);
-    background: -ms-radial-gradient(center bottom, circle farthest-corner, lightgray, #EEE, lightgray);
-    background: radial-gradient(center bottom, circle farthest-corner, lightgray, #EEE, lightgray);
+    background: -webkit-radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
+    background: -moz-radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
+    background: -o-radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
+    background: -ms-radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
+    background: radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
 
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -75,7 +75,8 @@ body{
 	height: 729px; /* screen 810 */ 
 	padding: 20px 20px;
     font-family: DroidSans;
-    color: #EEE;
+    /*color: #EEE;*/
+    color: dimgray;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .9);
     font-size: 30px;
     line-height: 36px;
@@ -88,7 +89,7 @@ body{
 }
 
 .title{
-    color: #ff7700;
+    color: teal;
     font-size: 80pt;
     padding: 20px;
     line-height: 65pt;
@@ -97,9 +98,20 @@ body{
     letter-spacing: normal;
     top: 25%
 }
+.title-sk{
+    color: teal;
+    font-size: 35pt;
+    padding: 10px 0px;
+    line-height: 55pt;
+    text-align: center;
+    position: relative;
+    letter-spacing: normal;
+    top: 10%
+}
 
 .subtitle{
-    color: #FFF;
+    /*color: #FFF;*/
+    color:dimgray;
     font-size: 40pt;
     line-height: 65pt;
     text-align: center;
@@ -108,12 +120,35 @@ body{
     top: 25%
 }
 
+.subtitle-sk{
+    /*color: #FFF;*/
+    color:dimgray;
+    font-size: 25pt;
+    line-height: 65pt;
+    text-align: center;
+    position: relative;
+    letter-spacing: normal;
+    top: 15%
+}
+
 .author{
-    color: #ff7700;
+    color: teal;
     font-family: DroidSans;
     font-size: 30pt;
     padding: 20px;
     line-height: 40pt;
+    text-align: right;
+    position: relative;
+    letter-spacing: normal;
+    top: 40%
+}
+
+.author-sk{
+    color: teal;
+    font-family: DroidSans;
+    font-size: 20pt;
+    padding: 5px;
+    line-height: 25pt;
     text-align: right;
     position: relative;
     letter-spacing: normal;
@@ -160,7 +195,8 @@ body{
 }
 
 .slide-title{
-    color: #FFF;
+    /*color: #FFF;*/
+    color: darkslategray;
     height: 120px;
     font-size: 36pt;
     line-height: 120px;
@@ -188,7 +224,7 @@ body{
 }
 
 em{
-    color: #ff7700;
+    color: teal;
 }
 
 .source{
@@ -264,8 +300,9 @@ em{
 }
 
 .event_logo {
-	width:250px;
-	vertical-align: middle;
+	/*width:250px;*/
+    width:150px;
+    vertical-align: middle;
 	position: absolute;
 	bottom:0;
 	left:0;
