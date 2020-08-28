@@ -2,7 +2,7 @@ Klasifikasi Terhadap Paham Ekstrimisme Di Sosial Media Menggunakan Algortima Nai
 =======
 
 Persentasi Seminar Proposal Classification with Naive Bayes  
-# Content
+# Table of Content
 
 + Pendahuluan
  + Latar Belakang
@@ -11,7 +11,18 @@ Persentasi Seminar Proposal Classification with Naive Bayes
  + Tujuan Penelitian
  + Manfaat Penelitian
 + Landasan Teori
-+ Technical debt vs low quality code
+ + Machine Learning
+ + Ekstrimisme
+ + Text Mining
+ + Naive Bayes
+ + Pyhton
+ + Twitter
++ Metode Penelitian
+ + Waktu
+ + Alat dan Bahan
+ 
+
+
 
 # Resources
 
