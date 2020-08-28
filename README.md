@@ -5,9 +5,11 @@ Persentasi Seminar Proposal Classification with Naive Bayes
 # Content
 
 + Pendahuluan
- + Analogies with financial debt
- + Types of technical debt
- + Symptoms
+ + Latar Belakang
+ + Rumusan Masalah
+ + Batasan Masalah
+ + Tujuan Penelitian
+ + Manfaat Penelitian
 + Landasan Teori
 + Technical debt vs low quality code
 
